@@ -8,7 +8,7 @@ console.log(fullname,price,age,x,y)
 
 // This is Because String is Immutable 
 
-// let s = "Hello"
-// s.concat("Data Flair")
-// console.log(s)
+let s = "Hello"
+s.concat("Data Flair")
+console.log(s)
 

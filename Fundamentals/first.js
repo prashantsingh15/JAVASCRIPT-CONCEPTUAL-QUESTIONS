@@ -1,14 +1,9 @@
-fullname = "Hello World"
-age = 24
-price = 56769
-x = null
-y =  undefined
+console.log("Hello NodeJs")
 
-console.log(fullname,price,age,x,y)
+// The window object is a global object that represents the browser window containing the DOM (Document Object Model). It serves as the global context for JavaScript code running in that window.
 
-// This is Because String is Immutable 
+// this - > Whenever we run console.log(this) in browser it will return window object and when we run this on Nodejs console it will return Empty Paranthesis..
 
-let s = "Hello"
-s.concat("Data Flair")
-console.log(s)
+// It is Because Nodejs  does not have a 'window' object like browsers do.
 
+console.log(this)
